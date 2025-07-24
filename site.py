@@ -55,10 +55,17 @@ if st.session_state.page == "curriculo":
 
 elif st.session_state.page == "projetos":
     st.header("Meus Projetos")
-    st.subheader("1. Xxx")
+    st.subheader("1. Automação - Facilities")
     st.write("[joaohenrique.thole@gmail.com](mailto:joaohenrique.thole@gmail.com)")
 
 elif st.session_state.page == "arquivos":
     st.header("Arquivos")
     st.write("Esta seção está em desenvolvimento. Adicione aqui os arquivos que deseja compartilhar!")
     st.write("[joaohenrique.thole@gmail.com](mailto:joaohenrique.thole@gmail.com)")
+
+
+#git init
+#git add .
+#git commit -m "Initial commit with updated app"
+#git remote add origin https://github.com/jooaoh/joao-henrique-portfolio.git
+#git push -u origin main
