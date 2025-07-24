@@ -32,7 +32,7 @@ if st.session_state.page == "curriculo":
         st.write("")
         st.write("")
         st.write("Olá! Eu sou João Henrique. Trabalho com dados desde 2021.")
-        st.write("Atuário formado pela UERJ | Analista de Dados Jr. - Gallagher Re")
+        st.write("Analista de Dados Jr. - Gallagher Re| Atuário formado pela UERJ")
         st.write("Excel, Power BI, Python, R Studio")
         st.write("https://www.linkedin.com/in/jo%C3%A3o-henrique-thole-ribeiro-4355ba1ba/")
     with col2:
