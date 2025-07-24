@@ -34,7 +34,7 @@ if st.session_state.page == "curriculo":
         st.write("Excel, Power BI, Python, R Studio")
         st.write("https://www.linkedin.com/in/jo%C3%A3o-henrique-thole-ribeiro-4355ba1ba/")
     with col2:
-        st.image("assets/CorpJoaoH.jpeg", width=100)  # Caminho relativo
+        st.image("assets/CorpJoaoH.jpeg", width=800)  # Caminho relativo
 
     # URL de visualização direta do PDF no Google Drive
     pdf_id = "168wtaEWKim5yEfDvIbAU1Rl4Mfke8wL7"
