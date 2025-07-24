@@ -34,11 +34,11 @@ if st.session_state.page == "curriculo":
         st.write("Excel, Power BI, Python, R Studio")
         st.write("https://www.linkedin.com/in/jo%C3%A3o-henrique-thole-ribeiro-4355ba1ba/")
     with col2:
-        st.image("/Users/jooaoh/Desktop/Python Streamlit/assets/CorpJoaoH.jpeg", width=100)  # Ajustar para URL direta ou mover para assets
+        st.image("assets/CorpJoaoH.jpeg", width=100)  # Caminho relativo
 
     # URL de visualização direta do PDF no Google Drive
     pdf_id = "168wtaEWKim5yEfDvIbAU1Rl4Mfke8wL7"
-    pdf_view_url = f"https://drive.google.com/file/d/{pdf_id}/preview"  # Link de visualização direta
+    pdf_view_url = f"https://drive.google.com/file/d/{pdf_id}/preview"
     
     try:
         # Tentativa de baixar o PDF para o botão de download
