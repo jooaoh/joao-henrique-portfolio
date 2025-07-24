@@ -29,6 +29,8 @@ if st.session_state.page == "curriculo":
     st.header("Sobre Mim")
     col1, col2 = st.columns([3, 1])
     with col1:
+        st.write("")
+        st.write("")
         st.write("Olá! Eu sou João Henrique. Trabalho com dados desde 2021.")
         st.write("Atuário formado pela UERJ | Analista de Dados Jr. - Gallagher Re")
         st.write("Excel, Power BI, Python, R Studio")
